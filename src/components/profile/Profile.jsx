@@ -33,13 +33,13 @@ const Profile = ({ name , tag , location , avatarUrl, followersCount , viewsCoun
 };
 
 Profile.propTypes = {
-  avatarUrl: PropTypes.string,
-  name: PropTypes.string,
-  tag: PropTypes.string,
-  location: PropTypes.string,
-  followersCount: PropTypes.number,
-  viewsCount: PropTypes.number,
-  likesCount: PropTypes.number,
+  avatarUrl: PropTypes.string.isRequired,
+  name: PropTypes.string.isRequired,
+  tag: PropTypes.string.isRequired,
+  location: PropTypes.string.isRequired,
+  followersCount: PropTypes.number.isRequired,
+  viewsCount: PropTypes.number.isRequired,
+  likesCount: PropTypes.number.isRequired,
   
 };
 
