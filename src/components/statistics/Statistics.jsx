@@ -16,10 +16,22 @@ const Statistics = ({title,stats}) => {
 
 Statistics.propTypes = {
   title: PropTypes.string.isRequired,
-  label: PropTypes.string.isRequired,
-  percentage: PropTypes.number.isRequired,
-  id: PropTypes.string.isRequired
+  stats: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.string.isRequired
+    }),
+  ),
+  stats: PropTypes.arrayOf(
+    PropTypes.shape({
+      label: PropTypes.string.isRequired
+    }),
+  ),
+  stats: PropTypes.arrayOf(
+    PropTypes.shape({
+      percentage: PropTypes.number.isRequired
+    }),
+  ),
+
 };
 
 export default Statistics;
-
