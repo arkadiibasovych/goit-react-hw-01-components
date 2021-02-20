@@ -12,8 +12,7 @@ reactDom.render(<React.StrictMode>
 
 
 // function randomColor() {
-//   return Math.random() * 255;
+//   return 
 // }
-
 
 // backgroundColor: `rgb(${randomColor()},${randomColor()}, ${randomColor()})`

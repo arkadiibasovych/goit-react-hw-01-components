@@ -2,10 +2,10 @@
   margin-top: 50px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 50px;
+
   background-color: #fff;
   width: 360px;
-  border-radius: 10px;
+  border-radius: 15px;
 
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
@@ -42,11 +42,11 @@
 }
 
 .stats :first-child {
-  border-bottom-left-radius: 10px;
+  border-bottom-left-radius: 5px;
 }
 
 .stats :last-child {
-  border-bottom-right-radius: 10px;
+  border-bottom-right-radius: 5px;
 }
 .name,
 .quantity {

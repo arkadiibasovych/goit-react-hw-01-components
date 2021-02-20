@@ -23,7 +23,9 @@ img {
 }
 ul,
 p,
-li {
+li,
+h2,
+h1 {
   margin: 0;
 }
 
