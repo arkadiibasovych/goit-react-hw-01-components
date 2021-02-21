@@ -17,7 +17,8 @@ const App = () => {
                   followersCount={user.stats.followers}
                   viewsCount={user.stats.views} 
                   likesCount={user.stats.likes}  
-            />     
+            />    
+            
             <Statistics   
                   title="Upload stats"
                   stats={statisticalData} />
